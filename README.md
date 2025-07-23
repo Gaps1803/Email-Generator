@@ -141,31 +141,8 @@ View and Copy Reply: The AI-generated email reply will appear in the "Generated 
 
 The project follows a standard Spring Boot and React application structure:
 
-email-generator/
-├── src/
-│   ├── main/
-│   │   ├── java/com/email/generator/
-│   │   │   ├── EmailGeneratorApplication.java        # Main Spring Boot entry point
-│   │   │   ├── EmailGeneratorController.java       # REST API endpoints for email generation
-│   │   │   ├── EmailGeneratorService.java          # Core business logic, integrates with Gemini API
-│   │   │   └── EmailRequest.java                   # DTO for email request payload
-│   │   └── resources/
-│   │       └── application.properties              # Backend configuration (e.g., Gemini API key)
-│   └── test/
-│       └── java/com/email/generator/
-│           └── EmailGeneratorApplicationTests.java # Backend test class
-│
-├── public/                                         # Frontend public assets
-│   └── index.html
-├── src/                                            # Frontend source
-│   ├── App.css                                     # Styles for the main React App component
-│   ├── App.jsx                                     # Main React component, handles UI logic and API calls
-│   ├── index.css                                   # Global CSS styles for the React app
-│   └── main.jsx                                    # React application entry point
-├── pom.xml                                         # Maven build configuration and dependencies for backend
-├── package.json                                    # Node.js dependencies and scripts for frontend
-├── README.md                                       # This file
-└── .gitignore
+<img width="1016" height="574" alt="image" src="https://github.com/user-attachments/assets/4c0ff930-e947-4a65-8439-af01b5b46dfe" />
+
 
 # 🤝 Contributing
 
