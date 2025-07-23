@@ -1,7 +1,9 @@
-📧 AI-Powered Email Reply Generator
+# 📧 AI-Powered Email Reply Generator
+
 An intelligent full-stack application for generating professional email replies with the power of the Google Gemini API for the backend and a dynamic React.js interface for the frontend. This tool streamlines your communication by offering customizable tones and an innovative Optical Character Recognition (OCR) feature to extract text directly from images.
 
-🌟 Features
+# 🌟 Features
+
 Intelligent Email Reply Generation: Craft professional and contextually relevant email replies using the power of the Google Gemini API.
 
 Customizable Tone: Choose from a variety of tones (e.g., Formal, Friendly, Concise, Appreciative) to match your communication style.
@@ -14,7 +16,8 @@ Clipboard Integration: Easily copy the generated email reply to your clipboard w
 
 Cross-Origin Support: The Spring Boot backend is configured to allow requests from the React frontend application.
 
-🚀 Technologies Used
+# 🚀 Technologies Used
+
 This project leverages a modern tech stack for both its backend and frontend components.
 
 Backend (Spring Boot)
@@ -41,7 +44,8 @@ Tesseract.js: A JavaScript library integrated for performing Optical Character R
 
 CSS: For comprehensive styling and responsive design of the user interface.
 
-⚙️ Prerequisites
+# ⚙️ Prerequisites
+
 Before you begin, ensure you have the following software installed on your system:
 
 Java Development Kit (JDK) 17 or higher
@@ -59,7 +63,8 @@ Visit the Google AI Studio to generate a new API key or retrieve an existing one
 
 Keep this key secure. It will be configured in your Spring Boot application's properties.
 
-🛠️ Getting Started
+# 🛠️ Getting Started
+
 Follow these steps to set up and run the Email Reply Generator on your local machine.
 
 1. Clone the Repository
@@ -112,7 +117,8 @@ npm run dev
 yarn dev
 The frontend application will typically open in your default web browser at http://localhost:5173 (or another available port).
 
-🚀 Usage
+# 🚀 Usage
+
 Once both the backend and frontend services are running:
 
 Open your web browser and go to the frontend application URL (e.g., http://localhost:5173).
@@ -131,7 +137,8 @@ Generate Reply: Click the "Generate Reply" button. The application will send the
 
 View and Copy Reply: The AI-generated email reply will appear in the "Generated Reply" box. Click the "Copy" button to instantly copy the reply to your clipboard for easy use.
 
-📚 Project Structure
+# 📚 Project Structure
+
 The project follows a standard Spring Boot and React application structure:
 
 email-generator/
@@ -159,7 +166,9 @@ email-generator/
 ├── package.json                                    # Node.js dependencies and scripts for frontend
 ├── README.md                                       # This file
 └── .gitignore
-🤝 Contributing
+
+# 🤝 Contributing
+
 We welcome contributions to enhance this Email Reply Generator! If you have ideas for improvements, new features, or bug fixes, please follow these steps:
 
 Fork the repository on GitHub.
@@ -189,5 +198,6 @@ Bash
 git push origin feature/your-feature-name
 Open a Pull Request to the main branch of the original repository. Provide a detailed description of your changes.
 
-📄 License
+# 📄 License
+
 This project is open-sourced under the MIT License (if you have this file in your project).
